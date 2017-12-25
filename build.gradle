@@ -36,7 +36,7 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("javax.servlet:jstl")
     //providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
-    //providedRuntime('org.apache.tomcat.embed:tomcat-embed-jasper')
+    compile('org.apache.tomcat.embed:tomcat-embed-jasper')
     runtime("org.hsqldb:hsqldb")
     
     //runtime group: 'org.hsqldb', name: 'hsqldb', version:'2.3.3'
